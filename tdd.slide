@@ -1,0 +1,44 @@
+TDD
+
+* Po co pisać testy 
+
+- skąd mamy pewność, że to działa
+- jak często restartujecie środowisko,
+- jak często dubegujemy
+* Co dostajemy poprzez TDD
+- gotowy produkt
+- testy do utrzymania
+* Jak je pisać (przed, po a może w trakcie)
+- Builder 
+- Czytelnie nazywamy metody
+- Refaktoryzujemy
+- Unikamy hierarchi dziedziczenia
+- Unikamy dużej ilości mockowania
+* Red, Geen, Refactor
+- dodaj test
+- sprawdź negatywny wynik testu
+- dodaj kod
+- sprawdź ze wszystkie testy działają
+- refaktor
+- sprawdź ze wszystkie testy działają
+* A co gdy przychodzi błąd z produkcji
+- Piszemy test
+
+* Zły przykład
+.code PrzypadekUnitTest.java  
+
+* Poprawny przykład
+.code PrzypadekPoprawnyUnitTest.java
+
+* Narzędzia
+- JUnit, TestNG
+- Mockito
+- AssertJ
+- Testy Mutacyjne
+- jacoco
+
+
+* Podsumowanie
+* TDD to proces w efekcie którego powstaje kod produkcyjny.
+* Testy jak i wysokie pokrycie kodu jest efektem ubocznym.
+
