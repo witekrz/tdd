@@ -1,12 +1,3 @@
-import org.junit.Assert;
-import org.junit.Test;
-
-import java.util.List;
-
-public class PrzypadekPoprawnyUnitTest {
-
-    private WniosekOferta wniosekOferta;
-
     @Test
     public void testSprawdzaCzyIstniejeOfertaDlaWniosku() {
         //given
@@ -25,7 +16,7 @@ public class PrzypadekPoprawnyUnitTest {
 
         List<String> kredytobiorcy = w.getKredytobiorcow();
 
-        Assert.assertFalse(kredytobiorcy.size()==1);
+        assertThat(kredytobiorcy.size(),is(2));
     }
-}
+
 

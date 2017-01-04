@@ -1,11 +1,3 @@
-import org.junit.Assert;
-import org.junit.Test;
-
-import java.math.BigDecimal;
-import java.util.List;
-
-public class PrzypadekUnitTest {
-
     private static final BigDecimal KWOTA = new BigDecimal(20000);
     private static final Integer LICZBA_RAT = 58;
 
@@ -21,6 +13,4 @@ public class PrzypadekUnitTest {
         Assert.assertTrue(czyOferta);
         Assert.assertFalse(kredytobiorcy.size()==1);
     }
-
-}
 

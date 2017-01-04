@@ -33,7 +33,7 @@ TDD
 * Narzędzia
 - JUnit, TestNG
 - Mockito
-- AssertJ
+- Hamcrest, AssertJ
 - Testy Mutacyjne
 - jacoco
 
